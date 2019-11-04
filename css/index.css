@@ -1,0 +1,63 @@
+/* Page CSS dédié à l'index de notre projet */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: antiquewhite
+}
+nav{
+	border: solid 3px red;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+#menu li a{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	position: relative;
+	color: aqua;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: sans-serif;
+	display: block;
+	text-transform: uppercase;
+}
+header > h1 {
+	text-align: center;
+	border: solid 3px aqua;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header > img {
+	position: absolute;
+	height: 50px;
+	padding-left: 30px;
+}
+
+img {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer p {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: rgba(100,100,100,1.00);
+}
