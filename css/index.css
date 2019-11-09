@@ -2,17 +2,21 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: antiquewhite
+	background-color: rgba(0,6,77,1.00);
 }
 nav{
 	border: solid 3px red;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: black;
+	opacity: 0.77;
+	border-radius: 30px;
 }
 #menu{
 	margin: 0;
 	padding: 0;
+
 }
 
 #menu li{
@@ -27,19 +31,26 @@ nav{
 	padding-bottom: 15px;
 	text-decoration: none;
 	position: relative;
-	color: aqua;
+	color: white;
 	font-size: 20px;
 	font-weight: 700;
 	font-family: sans-serif;
 	display: block;
 	text-transform: uppercase;
+	border-left: solid 2px red;
+	border-right: solid 2px red;
 }
 header > h1 {
 	text-align: center;
-	border: solid 3px aqua;
+	color: white;
+	border: solid 3px red;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	opacity: 0.77;
+	background-color: black;
+	border-radius: 30px;
+	padding: 15px;
 }
 
 header > img {
@@ -59,5 +70,9 @@ footer p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	text-align: center;
-	background-color: rgba(100,100,100,1.00);
+	background-color: black;
+	opacity: 0.77;
+	border: solid 2px red;
+	border-radius: 30px;
+	color: white;
 }
